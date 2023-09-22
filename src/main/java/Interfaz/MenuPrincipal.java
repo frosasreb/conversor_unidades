@@ -55,7 +55,7 @@ public class MenuPrincipal {
 
     private static boolean NumeroValido(String input) {
         try{
-            double x = Double.parseDouble(input);
+            Double.parseDouble(input);
             return true ;
         } catch (NumberFormatException e){
             JOptionPane.showMessageDialog(null, "Valor debe ser numerico");
